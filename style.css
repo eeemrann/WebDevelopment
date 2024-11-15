@@ -1,6 +1,10 @@
-p{
+h1{
+    color: yellow;
     background-color: brown;
 }
-a{
-    background-color: rgb(182, 182, 215);
+div{
+    color: blue;
+}
+p{
+    background-color: blueviolet;
 }

@@ -4,41 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Entities</title>
+    <title>CSS Selectors</title>
+    <style>
+        -->
+        /* Elements Selector 
+        div{
+            background-color: red;
+        }*/
+
+        -->
+
+        /* Class Selector */
+        .a {
+            background-color: red;
+        }
+
+        -->
+
+        /* ID Selector */
+        #b {
+            background-color: greenyellow;
+        }
+
+        -->
+
+        /* Child Selector */
+        div>p {
+            color: rgb(0, 255, 42);
+            background-color: blue;
+        }
+
+        -->
+
+        /* Descendant Selector */
+        div p {
+            color: rgb(109, 5, 5);
+        }
+
+        -->
+
+        /* Universal Selector */
+        * {
+            margin: 111;
+            padding: 11;
+        }
+
+        -->
+
+        /* Pseudo Selector */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+        p:first-child {
+            background-color: aqua;
+        }
+    </style>
 </head>
 
 <body>
-    <pre>
-        This is para
-    </pre>
-    &lt;p&gt; &lt;/p&gt; <br><br>
-    &copy; <br>
-    Copyright &copy;                   google<br>
-    Copyright &copy; &nbsp;&nbsp;&nbsp; &nbsp; google<br>
-    <blockquote cite="source-google.com">
-        Qoutation Text Here
-    </blockquote>
-    <q>
-        Qoutation Text Here
-    </q>
-<h2>This is HTML code</h2>
-    <pre>
-        <code>
-            &lt;!DOCTYPE html&gt;
-            &lt;html lang="en"&gt;
-            &lt;head&gt;
-                &lt;meta charset="UTF-8"&gt;
-                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                &lt;title&gt;Document&lt;/title&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-                
-            &lt;/body&gt;
-            &lt;/html&gt;
-        </code>
-    </pre>
+    <main class="one">
+        <p>Hi I am one</p>
+        <p>Hi I am two</p>
+    </main>
 
-
+    <div class="a">
+        I am a div
+        <p>My name is child</p>
+    </div>
+    <div id="b">
+        I am another div
+    </div>
+    <a href="https://www.google.com">Go to Google</a> <br>
+    <a href="https://www.facebook.com">Go to Facebook</a>
 </body>
 
 </html>
