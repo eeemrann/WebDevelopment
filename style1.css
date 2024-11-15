@@ -1,3 +1,12 @@
-td{
-    border: 2px solid yellow;
+.red {
+    background-color: rgb(110, 209, 24);
+    color: red;
+}
+
+.bg-yellow {
+    background-color: rgb(166, 166, 225);
+}
+
+#seconddiv{
+    color: rgb(136, 255, 38);
 }

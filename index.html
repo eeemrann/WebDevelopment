@@ -4,58 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bookmarks - Mahdi Hasan</title>
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="style.css">
-
+    <title>Forms - Lets Learn it</title>
 </head>
 
 <body>
+    <h3>
+        Form to apply for Sigma Web Development Course.
+    </h3>
+    <form action="post">
+        <div>
+            <label for="username">Name:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username">
+        </div>
+        <div>
 
-    <h1> My Bookmarks </h1>
-    <h2>Main Bookmarks - Mahdi Hasan using h2</h2>
-    <h3>Main Bookmarks - Mahdi Hasan using h3</h3>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
 
-    <p style="background-color:black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, praesentium
-        voluptatum perspiciatis vero tenetur consequatur, accusantium nisi nulla, iste provident ipsa rerum debitis.</p>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment:</label>
+        </div>
+        <div>
+            <textarea name="comment" id="comment" cols="30" rows="10">Enter your comment here....</textarea>
+        </div>
+        <div>
+            <select name="Fruits" id="fruits">
+                <option value="appple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="grape">Grape</option>
+            </select>
+        </div>
 
-    <img width="230" height="120" src="image1.png" alt="Waterfall image">
-
-    <table>
-        <caption>Data Entry</caption>
-        <tr>
-            <th>Name</th>
-            <th>Designation</th>
-            <th>FavLang</th>
-        </tr>
-        <tr>
-            <td rowspan="2"> Emran </td>
-            <td> Programmer </td>
-            <td colspan="2"> JavaScript </td>
-
-        </tr>
-        <tr>
-            <td> Shakib </td>
-            <td> Engineeeeer </td>
-            <td> Pythonnnn </td>
-
-        </tr>
-    </table>
-
-    <ul>
-        <li type="square">Harry</li>
-        <li>Harmony</li>
-        <li>Potter</li>
-    </ul>
-
-    <ol>
-        <li type="A">Harry</li>
-        <li>Harmony</li>
-        <li>Potter</li>
-    </ol>
-
-
-    <script src="script.js"></script>
+    </form>
 </body>
 
 </html>

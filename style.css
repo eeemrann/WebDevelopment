@@ -1,4 +1,6 @@
-body{
-    background-color: rgb(222, 210, 210);
-    color: rgb(145, 48, 48);
+p{
+    background-color: brown;
+}
+a{
+    background-color: rgb(182, 182, 215);
 }
